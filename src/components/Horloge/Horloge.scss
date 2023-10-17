@@ -1,17 +1,23 @@
-.Num{
+.Num {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 2rem;
-    background-color: rgb(42, 66, 66);
+    background-image: url('/Horloge/src/components/image/Fond.png'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin de votre image */
+    background-size: cover; /* Ajuste la taille de l'image pour remplir le conteneur */
     text-align: center;
-    
-}
-.night{
-    /* Styles pour le jour */
-    background-image: url('./components/Images/Night.jpg'); 
-  }
-p{
+    // background-color: rgb(42, 66, 66);
+    text-align: center;
     font-size: 40px;
+    padding: 1rem;
+}
+
+
+.Hours, .Minutes, .Seconds {
+    font-size: 40px;
+    background-color: black;
+    padding: 5px; /* Espacement intérieur pour créer une bordure autour du contenu de la classe Hours */
+    border-radius: 5px; /* Ajoute un arrondi aux coins pour créer un effet de cadre */
+    display: inline-block; /* Permet de garder la largeur du cadre aussi petite que possible */
 }
 // div {
     
