@@ -1,15 +1,16 @@
 
-import './App.scss'
+import './App.scss';
 import Horloge from './components/Horloge/Horloge';
-import Video from './components/Video/video';
+import Videos from './components/Video/video';
 
 function App() {
   return (
     <>
       <Horloge />
-      <Video />
+      <Videos />
     </>
   );
 }
 
-export default App
+export default App;
+
