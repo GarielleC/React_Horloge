@@ -26,9 +26,15 @@ function Clock() {
             <h1>Horloge</h1>
             <p>{date}</p>
             <p className='Hours'>
-                {hours < 10 ? `0${hours}` : hours}</p>:
-            <p className='Minutes'>{minutes < 10 ? `0${minutes}` : minutes}</p>:
-            <p className='Seconds'>{seconds < 10 ? `0${seconds}` : seconds}</p>
+                {hours < 10 ? `0${hours}` : hours}
+                </p>:
+            <p className='Minutes'>
+                {minutes < 10 ? `0${minutes}` : minutes}
+                </p>:
+            <p className='Seconds'>
+                {seconds < 10 ? `0${seconds}` : seconds}
+            </p>
+
         </div>
     );
 }
