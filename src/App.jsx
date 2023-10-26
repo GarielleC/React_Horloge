@@ -1,13 +1,14 @@
 
 import './App.scss';
 import Horloge from './components/Horloge/Horloge';
-import Videos from './components/Video/video';
+// import Images from './components/image';
 
 function App() {
   return (
     <>
       <Horloge />
-      <Videos />
+      <img src='./components/image/Horloge.gif' />
+      {/* <Images /> */}
     </>
   );
 }
