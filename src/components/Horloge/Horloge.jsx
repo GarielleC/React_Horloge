@@ -23,6 +23,7 @@ function Clock() {
 
     return (
         <div className='Num'>
+             <img src="" alt="Mon GIF" />
             <h1>Horloge</h1>
             <p>{date}</p>
             <p className='Hours'>
