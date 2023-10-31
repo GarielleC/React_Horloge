@@ -7,8 +7,6 @@ function App() {
   return (
     <>
       <Horloge />
-      <img src='./components/image/Horloge.gif' />
-      {/* <Images /> */}
     </>
   );
 }
